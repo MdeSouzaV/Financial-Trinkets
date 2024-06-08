@@ -8,7 +8,7 @@ import os.path as op
 from metalog import metalog
 
 def main():
-    stock_name, price_data, time_data = get_user_input(False)
+    stock_name, price_data, time_data = get_user_input()
     plot_graph(stock_name, price_data, time_data)
 
 
